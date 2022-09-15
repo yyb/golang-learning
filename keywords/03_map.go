@@ -7,6 +7,13 @@ func main() {
 
 	stringMap()
 
+	var m map[string]int
+
+	m = make(map[string]int)
+	fmt.Printf("%#v\n", m)
+
+	m = map[string]int{}
+	fmt.Printf("%#v\n", m)
 }
 
 func stringMap() {
@@ -20,6 +27,7 @@ func stringMap() {
 
 	fmt.Println(m)
 
+	// range 遍历
 	for key, value := range m {
 		fmt.Println(key, value)
 	}
