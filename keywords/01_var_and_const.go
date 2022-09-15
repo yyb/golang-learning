@@ -59,4 +59,17 @@ func main() {
 	)
 	fmt.Println(Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday)
 
+	const (
+		_          = iota // ignore first value by assigning to blank identifier
+		KB float64 = 1 << (10 * iota)
+		MB
+		GB
+		TB
+		PB
+		EB
+		ZB
+		YB
+	)
+
+	fmt.Println(KB, MB, GB, TB, PB, EB, ZB, YB)
 }
