@@ -72,4 +72,12 @@ func main() {
 	)
 
 	fmt.Println(KB, MB, GB, TB, PB, EB, ZB, YB)
+
+	// 自动推断变量类型
+	number := 1
+	fmt.Println(number)
+
+	// 表达式推断可能会错误
+	//maxUint := math.MaxUint
+	// output:cannot use math.MaxUint (untyped int constant 18446744073709551615) as int value in assignment (overflows)
 }
