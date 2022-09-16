@@ -1,5 +1,5 @@
 # golang-learning
-旨在记录一些学习过程
+旨在记录一些Go语言的学习过程，主要是包括语法基础、算法基础、项目研发基础的一些内容，目标是能够研发出符合生产要求的项目。
 
 
 # 学习目录
@@ -12,10 +12,10 @@
   - [x] func： 用于定义函数和方法
   - [x] break、case、continue、for、fallthrough、else、if、switch、goto、default 流程控制
   - [x] defer someCode ：在函数退出之前执行
-  - [ ] map用于声明map类型数据
-  - [ ] interface 用于定义接口
-  - [ ] struct 用于定义抽象数据类型
+  - [x] map用于声明map类型数据
   - [ ] type用于声明自定义类型
+  - [ ] struct 用于定义抽象数据类型
+  - [ ] interface 用于定义接口
   - [ ] go : 用于并行
   - [ ] select 用于选择不同类型的通讯
   - [ ] chan用于channel通讯
