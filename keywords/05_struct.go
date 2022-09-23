@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 type People struct {
 	name string
@@ -61,6 +64,22 @@ func main() {
 	fmt.Println(xiaohong)
 	changeNameRef(xiaohong)
 	fmt.Println(xiaohong)
+
+	// 嵌套结构,生成json数据
+	type Content struct {
+		Body string `json:"body,omitempty"`
+		Len  int    `json:"len,omitempty"`
+	}
+	type Book struct {
+		Content *Content `json:"content"`
+		Bar     *int     `json:"tag 2"`
+	}
+
+	book := Book{}
+	fmt.Println(book)
+	byteList, _ := json.Marshal(book)
+	fmt.Println(string(byteList))
+
 }
 
 func changeName(zhangsan People) {

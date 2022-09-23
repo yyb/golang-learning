@@ -13,9 +13,9 @@
   - [x] break、case、continue、for、fallthrough、else、if、switch、goto、default 流程控制
   - [x] defer someCode ：在函数退出之前执行
   - [x] map用于声明map类型数据
-  - [ ] type用于声明自定义类型
-  - [ ] struct 用于定义抽象数据类型
-  - [ ] interface 用于定义接口
+  - [x] type用于声明自定义类型
+  - [x] struct 用于定义抽象数据类型
+  - [x] interface 用于定义接口
   - [ ] go : 用于并行
   - [ ] select 用于选择不同类型的通讯
   - [ ] chan用于channel通讯
@@ -31,7 +31,7 @@
   - [ ] 树
   - [ ] 图
   - [ ] 堆
-    
-- 
+- 基础算法
+- 设计模式
 
 <a href="https://www.buymeacoffee.com/fishcookie"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=fishcookie&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
