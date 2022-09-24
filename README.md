@@ -16,9 +16,9 @@
   - [x] type用于声明自定义类型
   - [x] struct 用于定义抽象数据类型
   - [x] interface 用于定义接口
-  - [ ] go : 用于并行
+  - [x] go : 用于并行
+  - [x] chan用于channel通讯
   - [ ] select 用于选择不同类型的通讯
-  - [ ] chan用于channel通讯
   - [ ] range用于读取slice、map、channel数据
 - 原生数据类型
   - [ ] 数组
